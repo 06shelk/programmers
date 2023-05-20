@@ -2,15 +2,15 @@ class Solution {
     public int solution(int a, int b) {
         int answer = 0;
         
-        String non = Integer.toString(a) + Integer.toString(b);
+        String logicalSum = Integer.toString(a) + Integer.toString(b);        
+        int number = Integer.parseInt(logicalSum);
         
-        int number = Integer.parseInt(non);
-        int did = a * b* 2;
+        int Multi = a * b* 2; 
         
-        if(number>did) {
+        if(number>Multi) {
             answer = number;
         }else{
-            answer = did;
+            answer = Multi;
             
         }
         
