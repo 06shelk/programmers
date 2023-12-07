@@ -13,7 +13,7 @@ function solution(sides) {
     
 //     answer = maxNot > max ? 1 : 2;
     
-    sides.sort();
+    sides.sort((a,b) => a-b);
     
     answer = sides[2] >= sides[0] +  sides[1] ? 2: 1;
     
