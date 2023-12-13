@@ -1,5 +1,4 @@
 function solution(numer1, denom1, numer2, denom2) {
-    var answer = [];
     
     var samede = denom1 * denom2; // 공통 분모
     var num1 = numer1 * denom2; // 자1
