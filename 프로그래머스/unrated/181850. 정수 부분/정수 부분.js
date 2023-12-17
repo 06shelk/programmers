@@ -1,4 +1,3 @@
 function solution(flo) {
-    var answer = parseInt(flo);
-    return answer;
+    return parseInt(flo);
 }

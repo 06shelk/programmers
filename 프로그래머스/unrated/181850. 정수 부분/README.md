@@ -1,10 +1,10 @@
 # [level unrated] 정수 부분 - 181850 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181850?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181850) 
 
 ### 성능 요약
 
-메모리: 33.4 MB, 시간: 0.02 ms
+메모리: 33.5 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 0일 15:31:0
+2023년 12월 0일 15:42:37
 
 ### 문제 설명
 
