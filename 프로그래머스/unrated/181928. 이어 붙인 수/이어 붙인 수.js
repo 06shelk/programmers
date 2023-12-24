@@ -11,7 +11,7 @@ function solution(num_list) {
       }
     }
     
-    answer = Number(even) + Number(add);
+    answer = +even + +add;
     
     return answer;
 }
