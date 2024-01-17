@@ -25,16 +25,11 @@ function solution(polynomial) {
     }
     
     // 2x + 3이거나 2x일 경우
-     if(num1 != 0){
-         answer = num + "x + " + num1; 
-     }else { 
-         answer = num + "x";  
-    }
+    answer = (num1 != 0) ? num + "x + " + num1: num + "x";    
     
     // 3일 경우
-     if(num == 0) {
-          answer = num1.toString();  
-     }
+     if(num == 0) answer = num1.toString(); 
+
     
     return answer;
 }
