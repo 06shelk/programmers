@@ -2,9 +2,9 @@ function solution(arr, queries) {
     var answer = [];
     
     for(var i=0; i< queries.length; i++){
-        for(var j=0; j<arr.length; j++) {
-            const [s, e, k] = queries[i];
-            if(s <= j && j<=e && j%k ==0) arr[j]++;
+        const [s, e, k] = queries[i];
+        for(var j=s; j<= e; j++) {
+            if(j%k ==0) arr[j]++;
         }
     }
     
