@@ -10,8 +10,8 @@ function solution(arr, queries) {
                 subArray.push(arr[j]);
             }
         }
-       subArray = subArray.sort((a,b) => a-b);
-       array.push(subArray);
+
+       array.push(subArray.sort((a,b) => a-b));
     }
     
     for(var i=0; i<array.length; i++) {
