@@ -1,0 +1,16 @@
+function solution(numbers) {
+ 
+    numbers.sort((a,b) => a-b);
+    
+    var max =  numbers[0] * numbers[1];
+    
+    for(var i =0; i<numbers.length; i++) {
+        for(var j =i+1; j<numbers.length; j++) {
+            if(max < numbers[i] * numbers[j]) {
+                max = numbers[i] * numbers[j];
+            }
+        }
+    }
+    
+    return max;
+}
