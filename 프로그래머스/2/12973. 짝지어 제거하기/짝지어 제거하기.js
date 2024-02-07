@@ -9,5 +9,5 @@ function solution(s) {
         }
     }
         
-    return answer == 0 ? 1 : 0;
+    return answer.length == 0 ? 1 : 0;
 }
